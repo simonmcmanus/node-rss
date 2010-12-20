@@ -674,13 +674,13 @@ XMLP.prototype._replaceEntity = function(strD, iB, iE) {
         case "lt":strEnt = '<'; break;
         case "gt":strEnt = '>'; break;
         case "amp":strEnt = '&'; break;
-        case "cent":strEnt = "¢"; break;
-        case "pound":strEnt = '£'; break;
-        case "yen":strEnt = '¥'; break;
-        case "euro":strEnt = '€'; break;
-        case "sect":strEnt = '§'; break;
-        case "copy":strEnt = '©'; break;
-        case "reg":strEnt = '®'; break;
+        case "cent":strEnt = "Â¢"; break;
+        case "pound":strEnt = 'Â£'; break;
+        case "yen":strEnt = 'Â¥'; break;
+        case "euro":strEnt = 'â‚¬'; break;
+        case "sect":strEnt = 'Â§'; break;
+        case "copy":strEnt = 'Â©'; break;
+        case "reg":strEnt = 'Â®'; break;
         default:
             if(strD.charAt(iB) == "#") {
                 strEnt = String.fromCharCode(parseInt(strD.substring(iB + 1, iE)));
