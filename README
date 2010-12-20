@@ -1,5 +1,9 @@
+This code has been modified to allow RSS aggregation.
+
+
 ----------------------------------------------------------------------
 node-rss - an RSS parser for node.
+
 http://github.com/ibrow/node-rss
 Rob Searles - http://www.robsearles.com
 ----------------------------------------------------------------------
